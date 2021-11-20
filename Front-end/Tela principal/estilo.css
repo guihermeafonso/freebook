@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+.popupA-wrapper {
+    display: none;
+    background: #1C1C1C;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.popupS-wrapper {
+    display: none;
+    background: #1C1C1C;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.popupA {
+    font-family: arial;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    margin: 10% auto;
+    padding: 20px;
+    background: black;
+    position: relative;
+}
+
+.popupS {
+    font-family: arial;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    margin: 10% auto;
+    padding: 20px;
+    background: black;
+    position: relative;
+    
+}
+
+.popupA a {
+    color: white;
+    cursor: pointer;
+    padding: 6px 10px;
+    text-decoration: none;
+}
+
+.popupS a {
+    color: white;
+    cursor: pointer;
+    padding: 6px 10px;
+    text-decoration: none;
+}
+
+.popupA-close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.popupS-close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+}
+
+input{
+    background-color: #1C1C1C;
+    border-color: #8B5E3C;
+    border-radius: 4px;
+    color: white;
+}
+
+body {
+    background: #000000f5;
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    color:#8B5E3C;
+    font-size: 1em;
+    margin-block-start: 2em;
+}
+
+section {
+    color:snow;
+    text-align: center;
+}
+
+.agendatxt {
+    display: inline;
+    text-align: left;
+    color: #8B5E3C;
+    border-bottom: 2px solid #8B5E3C;
+    padding: 6px 10px;
+    font-size: 20px;
+    max-width: 180px;
+}
+
+.servicostxt {
+    display: inline;
+    text-align: right;
+    padding: 6px 10px;
+    font-size: 20px;
+    max-width: 130px;
+}
+
+.servicos {
+    display: none;
+}
+
+#buttonA, #buttonS {
+    display: block;
+    background-color: #000000f5;
+    margin: 20px auto;
+    color: #8B5E3C;
+    padding: 6px 10px;
+    font-size: 20px;
+    border-color: #8B5E3C;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+h2{
+    margin: 10px;
+    font-size: 20px;
+    color: #8B5E3C;
+}

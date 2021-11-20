@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FREEBOOK</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="../global/responsividade.css">
+</head>
+<body>
+    <div>
+        <header> 
+            <h1>FREEBOOK</h1>
+        </header>
+
+        <section >
+
+            <div class="agendatxt">MINHA AGENDA</div>
+            <div class="servicostxt">SERVIÇOS</div>
+
+            <div class="agenda">
+                            
+                <p></p><p></p><p></p>
+                <div id="horario"></div>
+                <p></p><p></p>
+                <div id="data"></div>
+
+                <p></p>
+                <button id="buttonA">Agendar novo cliente</button>
+
+                <div class="popupA-wrapper">
+                    <div class="popupA">
+                        <div class="popupA-close">x</div>
+
+                        <div class="popupA-content">
+                            <input type="time" id="appt" name="appt" min="09:00" max="18:00" required><br>
+                            <input id="date" type="date">
+                            
+                            <h2 class="nomecampo">Cliente</h2>
+                            <input type="text">
+
+                        
+                            <h2>Serviço</h2>
+                            <select></select>
+                        
+
+                            <h2>Duração</h2>
+                            
+                            
+                            
+                            <button class="popupA-fazer" id="buttonA">Fazer serviço</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="servicos">
+                <p></p>
+                <button class="conteudoservicos" id="buttonS">Criar serviço</button>
+
+                <div class="popupS-wrapper">
+                    <div class="popupS" >
+                        <div class="popupS-close">x</div>
+
+                        <div class="popupS-content" >
+                            <h2>Descrição</h2>
+                            <input type="text" id="txtdesc">
+                            <h2>Valor (R$)</h2>
+                            <input type="float"  id="txtval">
+                            <h2>Duração (Min)</h2>
+                            <input type="number"  id="txtdur"><br> 
+                            <input type="submit" name="Enviar" id="buttonS" value="Cadastrar" onclick="onClickAdd()">	
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>

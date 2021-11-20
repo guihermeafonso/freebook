@@ -1,0 +1,17 @@
+body {
+    background: #000000f5;
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+p {
+    margin-block-start: 12em;
+}
+
+h1 {
+    color:rgb(107, 61, 11)
+}

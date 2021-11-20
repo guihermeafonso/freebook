@@ -1,0 +1,53 @@
+body {
+    background: #1C1C1C;
+    font: normal 15pt Arial;
+
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    color:rgb(255, 255, 255);
+    font-size: 1em;
+    margin-block-start: 4em;
+}
+
+section {
+    color:#8B5E3C;
+    text-align: center;
+}
+div#email {
+    margin-block-start: 5em;
+    font: normal 10pt Arial;
+    text-align: center;
+}
+
+div#senha {
+    font: normal 10pt Arial;
+    text-align: center;
+}
+input#email, input#senha {
+    background-color: black;
+    border-width: 0px;
+    padding: 1px 88px;
+    color: white;
+}
+
+input[type="button" i] {
+    background-color: #8B5E3C;
+    color: white;
+    padding: 15px 144px;
+    font-size: 20px;
+}
+
+p#link {
+    text-align: center;
+    font-size: 20px;
+}
+a {
+    color:white;
+    text-decoration: none;
+}
